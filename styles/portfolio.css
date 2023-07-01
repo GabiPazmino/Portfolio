@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #d39dc1;
+}
+.contacto,
+.acercaDe {
+  color: #d39dc1;
+}
+.logo {
+  max-width: 40px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 67px;
+  left: 0;
+  width: 270px;
+  height: 100vh; /* ajusta la altura al 100% del viewport */
+  background-color: #212529;
+  padding: 20px;
+  text-align: center;
+  color: #d39dc1;
+}
+.profession {
+  font-size: 10px;
+}
+a {
+  color: #d39dc1;
+  text-decoration: none;
+  font-size: 14px;
+  
+}
+.miFoto {
+  max-height: 200px;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+}
+
+.containerPie {
+  margin: 0 50px;
+}
+.content {
+  margin-left: 270px; /* ajusta el margen izquierdo para dar espacio a la barra lateral */
+  padding: 20px;
+  background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
