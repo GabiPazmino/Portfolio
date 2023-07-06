@@ -47,14 +47,20 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#portfolio"
-                >Gabi Pazmiño Portfolio</a
+                >Gabi Pazmiño</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link acercaDe" href="#acerca">Acerca de Mí</a>
+              <a class="nav-link acercaDe" href="#acerca">About Me</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link contacto" href="#contacto">Portfolio</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link contacto" href="#contacto">My Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link contacto" href="#contacto">Contacto</a>
+              <a class="nav-link contacto" href="#contacto">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -65,8 +71,8 @@
 
      <!-- Contenido de la barra lateral -->
     <div class="sidebar">
-       <h5 class="d-inline float-start">Gabi <br> Pazmiño</h5>
-       <p class="float-end profession">Front-end <br> Developer</p><br><br><br>
+       <h4 class="d-inline float-start name">Gabi </h4>
+       <p class="float-end profession">Front-end <br> Developer</p><br><br>
        
        <img class="img-fluid d-block mx-auto rounded miFoto" src="images/foto.jpg" alt="mi foto"> <br>
        <a  href="mailto:gabi.pazmino.armijos@gmail.com" title="email" class="">gabi.pazmino.armijos@gmail.com</a><br>
@@ -80,19 +86,74 @@
       
       <!-- Pie -->
       <div class="containerPie">
-             <a href="https://www.linkedin.com/in/gabriela-pazmi%C3%B1o-81270b279/" target="blank">
-        <i class="fa-brands fa-linkedin float-start"></i> 
+        <a href="https://www.linkedin.com/in/gabriela-pazmi%C3%B1o-81270b279/" target="blank">
+        <i class="fa-brands fa-linkedin float-start"></i> </a>
             
         <a href="https://github.com/GabiPazmino" target="blank">
-        <i class="fa-brands fa-github float-end"></i>
+        <i class="fa-brands fa-github float-end"></i></a>
       </div>   
     </div>
     <br />
 
        <!-- Contenido principal -->
-    <div class="content">
-
+  <div class="content">
+    <!-- Acerca de mí -->
+    <div class="containerAcerca">
+      <h2 id="acerca">About Me</h2>
+      <p>
+        Hola! Soy bióloga de profesión y aunque amo lo que hago, decidí iniciar
+        un nuevo camino que me permita introducirme en el mundo laboral del
+        futuro. La programación, aunque ha sido un campo en el que nunca he
+        incursionado, me ha encantado y cada reto que se ha presentado viene
+        cargado de felicidad y crecimiento personal y por supuesto una carga de
+        conocimiento adquirido. Estoy feliz en este nuevo camino en mi vida y
+        ansío seguir aprendiendo y practicando para ser una crack de la
+        programación.
+      </p>
     </div>
+    <br /><br />
+
+
+    <!-- Portfolio -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/clima.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/cubo.jpg game.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/maquinaEscribir.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
    
      
 
