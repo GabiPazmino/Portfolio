@@ -11,6 +11,12 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .contacto,
 .acercaDe {
   color: #d39dc1;
@@ -23,7 +29,7 @@ body {
   position: fixed;
   padding: 20px 14px;
   text-align: center;
-  z-index: -1;
+  
   margin: 80px 10px 450px;
 }
 
@@ -52,8 +58,8 @@ i {
 }
 
 .contenido {
-  margin: 80px 40px 0 290px;
-  clear: left;
+  margin: 80px 30px 30px 300px;
+  
 }
 
 p {
