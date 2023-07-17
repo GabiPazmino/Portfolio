@@ -90,19 +90,23 @@ h5 {
   padding: 0;
   margin: 0;
 }
+
 .linkLetra {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .pLetra {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: bolder;
+  color: black;
+  margin-bottom: 5px;
 }
 
 .carousel-item {
   height: 70vh;
 }
+
 @media (max-width: 768px) {
   .row {
     flex-grow: auto;
