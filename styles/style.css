@@ -101,6 +101,7 @@ h5 {
   font-weight: bolder;
   color: black;
   margin-bottom: 5px;
+  background-color: rgba(231, 137, 206, 0.5);
 }
 
 .carousel-item {
